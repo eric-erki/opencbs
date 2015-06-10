@@ -1329,7 +1329,7 @@ namespace OpenCBS.GUI.Clients
             {
                 _corporate = _corporateUserControl.Corporate;
                 _client = _corporate;
-                ((MainView)_mdiParent).SetInfoMessage(string.Format("Corporate {0} saved", _corporate.Name));
+                //((MainView)_mdiParent).SetInfoMessage(string.Format("Corporate {0} saved", _corporate.Name));
                 InitializeTitle(_corporate.Name);
                 if (!tabControlPerson.TabPages.Contains(tabPageContracts))
                 {
